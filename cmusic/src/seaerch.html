@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<style>
+    *{margin:0;padding:0;}
+    .search-head{
+        background: #77CCF4;
+        display: flex;
+        justify-content: space-between;
+        padding: 5px;
+    }
+    input{
+        width:80%;
+        border:0;
+        background: #77CCF4;
+        outline: 0;
+        color: #fff;
+    }
+    ::-webkit-input-placeholder{
+        color: #eee;
+        opacity: .8;
+    }
+    .search-head img{
+        width:30px;height:30px;
+    }
+    .hot{
+        width:90%;
+        margin:0 auto;
+    }
+    .hot .hot-search{
+        font-size: 14px;
+        color:#999;
+        margin-top:20px;
+        margin-bottom:10px;
+    }
+    .hot .content{
+        display: flex;
+        justify-content: start;
+        flex-wrap: wrap;
+        overflow: hidden;
+    }
+    .hot .content span{
+        padding:4px;
+        border:1px solid #999;
+        border-radius: 5px;
+        margin:5px;
+    }
+    .del{
+        width:90%;
+        margin:0 auto;
+    }
+    .del .del-history{
+        font-size: 14px;
+        color:#999;
+        margin:20px 0 0 5px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .del .del-history img{
+        width:25px;height:25px;
+    }
+    .del .content div{
+        display: flex;
+        justify-content: space-between;
+        margin:10px 0 0 5px;
+    }
+    .del .content div span:last-child{
+        margin-right:7px;
+    }
+</style>
+<body>
+    <!-- 搜索框 -->
+    <div class="search-head">
+        <img src="assets/back.png" alt="">
+        <input type="text" placeholder="搜索歌曲、歌手">
+        <img src="assets/close.png" alt="">
+    </div>
+    <!-- 热门搜索 -->
+    <div class="hot">
+        <div class="hot-search">热门搜索</div>
+        <div class="content">
+            <span>Make it Right</span>
+            <span>谈恋爱不如先养猫</span>
+            <span>I Love You 3000 Ⅱ</span>
+            <span>大田后生仔</span>
+            <span>星子</span>
+            <span>痴情玫瑰花</span>
+            <span>变成陌生人</span>
+            <span>说好不哭</span>
+        </div>
+    </div>
+    <!-- 搜索历史 -->
+    <div class="del">
+        <div class="del-history">
+            <span>搜索历史</span>
+            <img src="assets/delete.png" alt="">
+        </div>
+        <div class="content">
+            <div>
+                <span>阿卡丽</span>
+                <span>×</span>
+            </div>
+            <div>
+                <span>阿卡丽</span>
+                <span>×</span>
+            </div>
+            <div>
+                <span>阿卡丽</span>
+                <span>×</span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

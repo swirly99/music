@@ -1,0 +1,114 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "615988",
+      "name": "more",
+      "font_class": "more",
+      "unicode": "e6d0",
+      "unicode_decimal": 59088
+    },
+    {
+      "icon_id": "2536508",
+      "name": "播放",
+      "font_class": "bofang",
+      "unicode": "e631",
+      "unicode_decimal": 58929
+    },
+    {
+      "icon_id": "3130168",
+      "name": "分享",
+      "font_class": "fenxiang",
+      "unicode": "e62b",
+      "unicode_decimal": 58923
+    },
+    {
+      "icon_id": "3526824",
+      "name": "增加",
+      "font_class": "zengjia",
+      "unicode": "e641",
+      "unicode_decimal": 58945
+    },
+    {
+      "icon_id": "3837115",
+      "name": "收 藏 (1)",
+      "font_class": "shoucang",
+      "unicode": "e502",
+      "unicode_decimal": 58626
+    },
+    {
+      "icon_id": "6137803",
+      "name": "上一首",
+      "font_class": "shangyishou",
+      "unicode": "e676",
+      "unicode_decimal": 58998
+    },
+    {
+      "icon_id": "6416945",
+      "name": "列表循环",
+      "font_class": "liebiaoxunhuan",
+      "unicode": "e63d",
+      "unicode_decimal": 58941
+    },
+    {
+      "icon_id": "7774955",
+      "name": "删 除",
+      "font_class": "shanchu-copy-copy",
+      "unicode": "e515",
+      "unicode_decimal": 58645
+    },
+    {
+      "icon_id": "8143795",
+      "name": "减少",
+      "font_class": "jianshao",
+      "unicode": "e513",
+      "unicode_decimal": 58643
+    },
+    {
+      "icon_id": "9592057",
+      "name": "暂停",
+      "font_class": "zanting",
+      "unicode": "e608",
+      "unicode_decimal": 58888
+    },
+    {
+      "icon_id": "9621054",
+      "name": "左箭头 向左 线性",
+      "font_class": "zuojiantouxiangzuoxianxing",
+      "unicode": "e672",
+      "unicode_decimal": 58994
+    },
+    {
+      "icon_id": "9677923",
+      "name": "音效",
+      "font_class": "yinxiao",
+      "unicode": "e630",
+      "unicode_decimal": 58928
+    },
+    {
+      "icon_id": "10208851",
+      "name": "上一首",
+      "font_class": "shangyishou1",
+      "unicode": "e61d",
+      "unicode_decimal": 58909
+    },
+    {
+      "icon_id": "10419597",
+      "name": "收 藏",
+      "font_class": "shoucang1",
+      "unicode": "e522",
+      "unicode_decimal": 58658
+    },
+    {
+      "icon_id": "11029876",
+      "name": "播放列表",
+      "font_class": "bofangliebiao",
+      "unicode": "e625",
+      "unicode_decimal": 58917
+    }
+  ]
+}
